@@ -48,9 +48,7 @@ public class Main
             }
         });
 
-        // sortedMap.forEach(w -> System.out.println(w));
-        for (int i=0; i < 50; i++){
-            System.out.println(sortedMap.get(i));
-        }
+        sortedMap.forEach(w -> System.out.println(w));
+        
     }
 }
