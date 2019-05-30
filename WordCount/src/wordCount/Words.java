@@ -21,8 +21,7 @@ public class Words
     @Override
     public String toString()
     {
-        return "Words{" +
-                "words='" + words + '\'' +
-                '}';
+        return "Common Words: " +
+                 words + '\'';
     }
 }
